@@ -1,0 +1,11 @@
+{
+  "id": "default",
+  "name": "default",
+  "profile": "etcd3-gateway",
+  "selector": {
+    "os": "installed"
+  },
+  "metadata": {
+    "etcd_endpoints": "node1.steemapps.cloud:2379,node2.steemapps.cloud:2379,node3.steemapps.cloud:2379"
+  }
+}

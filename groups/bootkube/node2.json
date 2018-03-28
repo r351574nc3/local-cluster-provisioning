@@ -1,0 +1,16 @@
+{
+  "id": "node2",
+  "name": "Worker Node",
+  "profile": "bootkube-worker",
+  "selector": {
+    "mac": "52:54:00:b2:2f:86"
+  },
+  "metadata": {
+    "domain_name": "node2.steemapps.cloud",
+    "k8s_dns_service_ip": "10.3.0.10",
+    "pxe": "true",
+    "ssh_authorized_keys": [
+      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQClKnoQpwM4Mjwr4Q1wnXWhCQKEtfzkrJrZW2IyDQRUrA/WnlWL1fCzwLOPTORPlGH+ZfjojXBYjRPD93NUft6xMGFLUVvAvI5ta4Uu5BwKbFCqNigHHlXg+A6JZTdWfOgwEE9iMCKF32dUy8Km5BhUncCizJOxxZU2s9GkTS5yrCBJ7dNwLvsTSNrcyPXk5AhDaSAD5XcuJgX6HjWt6mqWziebcG1nHUoQC6yPtaxXn8NhVKljVslfgAaRp4bgPiCK2xWKNJosrJvRU/2ur3UpH8z+hiM+VPye9k5PDEgpRP6ub/MqJ69+J342D8aZI/0JcnkxyFYY5xkzGQKvgp4qik9JVeIBBbvV5fZ5IgLsIJ/Lf/+J4MvyEFGBWrRMf6NihwtXDIv98M/7tj4YD/xF7UKbxG+YnQVpgHA2wHZ1HDT6P0rewikqfWoc1WCugzLXEO69D2WlJfrfX5I90a1X+OpTNoVeY01tvq0YWYseox0f8E+8D3NzYzwin3jEKdQ2MUGc0AiKsfVIDT1zkdWYuoGJQWZ/dZBPL3+siKuUlhS8nfVcsIO1pu66x9xTJyO36YYZkfV3ss3a9Uv1h5oGbGpS8IjYptaWoRTUqAMdbw3vLzF5jIRlECFncz4nGijO+Mag/ICp1zKdw+ej+yJZGkrKvnJHoaCHyDSPzmoNwQ=="
+    ]
+  }
+}
