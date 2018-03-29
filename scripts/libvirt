@@ -76,7 +76,7 @@ function create_uefi {
   virt-install --name $NODE4_NAME --network=bridge=docker0,model=e1000,mac=$NODE4_MAC $COMMON_VIRT_OPTS --boot=hd,uefi,network
 }
 
-nodes=(node1 node2 node3 node4)
+nodes=(node1 node2 node3 steemful)
 
 function start {
   for node in ${nodes[@]}; do
